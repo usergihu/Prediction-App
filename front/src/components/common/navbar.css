@@ -1,0 +1,53 @@
+/* Navbar globale */
+.navbar {
+  width: 100%;
+  padding: 16px 32px;
+  background-color: #333333; /* Changer la couleur de fond */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre douce */
+}
+
+/* Titre de la navbar */
+.navbar-left .navbar-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Liens de navigation */
+.navbar-right a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-right a:hover {
+  color: #00bcd4; /* Changer la couleur au survol */
+}
+
+/* Bouton se connecter dans la navbar */
+.navbar-right .login-button {
+  background-color: #00bcd4; /* Couleur du bouton "Se connecter" */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-right .login-button:hover {
+  background-color: #0097a7; /* Changer la couleur du bouton au survol */
+}
