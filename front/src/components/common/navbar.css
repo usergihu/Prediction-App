@@ -2,7 +2,7 @@
 .navbar {
   width: 100%;
   padding: 16px 32px;
-  background-color: #333333; /* Changer la couleur de fond */
+  background: linear-gradient(to right, #111, #00bcd4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,6 @@
 
 /* Bouton se connecter dans la navbar */
 .navbar-right .login-button {
-  background-color: #00bcd4; /* Couleur du bouton "Se connecter" */
   color: white;
   padding: 12px 24px;
   font-size: 16px;
@@ -48,6 +47,3 @@
   transition: background-color 0.3s ease;
 }
 
-.navbar-right .login-button:hover {
-  background-color: #0097a7; /* Changer la couleur du bouton au survol */
-}

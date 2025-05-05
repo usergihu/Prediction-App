@@ -1,0 +1,148 @@
+/* Style général de la page de gestion des utilisateurs */
+.user-management-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titre de la page */
+.user-management-container h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Bouton pour ajouter un utilisateur */
+.action-button {
+  background-color: #111;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
+}
+
+/* Modal (popup) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.modal-container input:focus {
+  outline: none;
+  border: 1px solid #00bcd4;
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-actions button {
+  width: 48%;
+  background-color: #111;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.modal-actions button:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
+}
+
+/* Tableau des utilisateurs */
+.user-table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.user-table th {
+  background-color: #0097a7;
+  color: white;
+  font-weight: bold;
+}
+
+.user-table td {
+  background-color: #fafafa;
+}
+
+.user-table td button {
+  background-color: #00bcd4;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.user-table td button:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
+}
+
+.user-table button.delete {
+  background-color: #f44336;
+}
+
+.user-table button.delete:hover {
+  background-color: #d32f2f;
+}

@@ -43,12 +43,13 @@ export default function UserDashboard() {
       </div>
 
       <div className="button-group">
-        <button onClick={() => handleSubmit("http://localhost:8000/api/predictor/classic/", setClassicResult)} disabled={loading}>
+
+        <span className='button1'> <button onClick={() => handleSubmit("http://localhost:8000/api/predictor/classic/", setClassicResult)} disabled={loading}>
           Classique
-        </button>
-        <button onClick={() => handleSubmit("http://localhost:8000/api/predictor/quantum/", setQuantumResult)} disabled={loading}>
+        </button> </span>
+        <span className='button2'> <button onClick={() => handleSubmit("http://localhost:8000/api/predictor/quantum/", setQuantumResult)} disabled={loading}>
           Quantique
-        </button>
+        </button></span>
       </div>
 
       <div className="results-section">

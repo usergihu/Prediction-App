@@ -38,9 +38,9 @@
   margin: 2rem 0;
 }
 
-.button-group button {
+.button1 button {
   padding: 0.6rem 1.2rem;
-  background-color: #6366f1; /* bleu lavande */
+  background-color: #323030; /* bleu lavande */
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -49,9 +49,24 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.button2 button {
+  padding: 0.6rem 1.2rem;
+  background: white;
+    color: #00bcd4;
+    border: 2px solid #00bcd4;
+    box-shadow: none;
+    border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
 
 .button-group button:hover {
-  background-color: #4f46e5;
+  background-color: #ffffff;
+  color: #111;
+  border-color: #00bcd4;
 }
 
 .button-group button:disabled {

@@ -56,7 +56,7 @@ const Register = () => {
 
       {/* ✅ Lien vers la connexion */}
       <p className="switch-auth">
-        Déjà inscrit ? <Link to="/login">Connectez-vous</Link>
+        Déjà inscrit ? <Link className='lien2' to="/login">Connectez-vous</Link>
       </p>
     </div>
   );

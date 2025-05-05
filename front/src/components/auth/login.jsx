@@ -37,12 +37,12 @@ const Login = () => {
           required
         />
         {error && <p className="error">{error}</p>}
-        <button type="submit">Connexion</button>
+        <button type="submit"><Link className="lien" to="/predict">Connexion</Link></button>
       </form>
 
       {/* ➕ Lien vers la page d'inscription */}
       <p className="switch-auth">
-        Pas encore inscrit ? <Link to="/register">Créez un compte</Link>
+        Pas encore inscrit ? <Link className='lien2' to="/register">Créez un compte</Link>
       </p>
     </div>
   );
