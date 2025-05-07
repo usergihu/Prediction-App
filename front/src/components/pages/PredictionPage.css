@@ -1,0 +1,103 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff; /* carte blanche */
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #111827;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.upload-section input[type="file"] {
+  background-color: #f9fafb;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+  padding: 0.6rem;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.upload-section input[type="file"]:hover {
+  border-color: #6366f1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.button1 button {
+  padding: 0.6rem 1.2rem;
+  background-color: #323030; /* bleu lavande */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button2 button {
+  padding: 0.6rem 1.2rem;
+  background: white;
+    color: #00bcd4;
+    border: 2px solid #00bcd4;
+    box-shadow: none;
+    border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+
+.button-group button:hover {
+  background-color: #ffffff;
+  color: #111;
+  border-color: #00bcd4;
+}
+
+.button-group button:disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.results-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.result-box {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.result-box h3 {
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+pre {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 0.95rem;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}

@@ -1,0 +1,17 @@
+.login-container {
+  
+  margin: 100px auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 8px;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.app-content {
+  padding-top: 80px; /* hauteur pour compenser la navbar fixe */
+}
