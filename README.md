@@ -1,7 +1,7 @@
 # metric_prediction_app
 Before running the project:
 
-pip install django
+pip install django \n
 pip install pennylane
 pip install cors
 pip install pandas
