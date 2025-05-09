@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // ✅ Ajout
-import './login.css'; // On réutilise le même fichier CSS
+import { Link } from 'react-router-dom';
+import './login.css';
 
 const Register = () => {
   const [username, setUsername] = useState('');
@@ -32,19 +32,20 @@ const Register = () => {
         .then(response => {
           if (!response.ok) {
             return response.json().then(data => {
-              throw new Error(data.error || 'Registration failed');
+              throw new Error(
+                typeof data === 'object' ? Object.values(data).flat().join(', ') : 'Registration failed'
+              );
             });
           }
           return response.json();
         })
         .then(data => {
           console.log("Utilisateur inscrit avec succès:", data);
-          // Optionally redirect or notify the user here
+          alert("Inscription réussie !");
         })
         .catch(error => {
-          setError(error.message);  // Set error message if registration fails
+          setError(error.message);
         });
-      console.log(" Inscription avec sucée :", { username, email, password });
     }
   };
 
@@ -80,7 +81,6 @@ const Register = () => {
         <button type="submit">S'inscrire</button>
       </form>
 
-      {/* ✅ Lien vers la connexion */}
       <p className="switch-auth">
         Déjà inscrit ? <Link className='lien2' to="/login">Connectez-vous</Link>
       </p>
