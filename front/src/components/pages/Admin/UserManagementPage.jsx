@@ -4,8 +4,10 @@ import './UserManagementPage.css';
 
 const UserManagementPage = () => {
   const [users, setUsers] = useState([
-    { id: 1, name: 'Jean Dupont', email: 'jean@example.com', role: 'Admin' },
-    { id: 2, name: 'Marie Lemoine', email: 'marie@example.com', role: 'Utilisateur' },
+     { id: 1, name: 'client1', email: 'client1@example.com', role: 'User' },
+    { id: 1, name: 'NewUser', email: 'NewUser@example.com', role: 'User' },
+    { id: 2, name: 'Usertest', email: 'Usertest@example.com', role: 'User' },
+    { id: 2, name: 'admin6', email: 'admin6@example.com', role: 'Admin' },
   ]);
 
   const [newUser, setNewUser] = useState({ name: '', email: '', role: '' });

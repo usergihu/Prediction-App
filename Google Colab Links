@@ -1,0 +1,30 @@
+
+CLASSIQUE
+dataset normalisée
+DT:https://colab.research.google.com/drive/1WVQBj53IFV-tLW_uYvAxmGuGxcybuvYU?usp=drive_open
+MLP: https://colab.research.google.com/drive/1oW3_hTvuMGw5WKDxAh9SLK7joDQWEnL7
+RF:
+dataset augmentée
+DT:https://colab.research.google.com/drive/1ArPdAR4YgwgejbTiIULoNwl4ZSYuo2Dd?usp=drive_open
+MLP:https://colab.research.google.com/drive/1h5iC8vN_ulQ8UeqKapWF-rUMvd6RMfHT
+RF:
+dataset augmentée et normalise
+DT:https://colab.research.google.com/drive/1a0nELt_19jNHdSwVHytUew6LDy1vOxPP?usp=drive_open
+MLP:https://colab.research.google.com/drive/1C1scYPbfQ--s2hEp5lfrUCbf6zLOw05a
+RF:
+
+QUANTIQUE HYBRIDE
+dataset normalisée
+DT:https://colab.research.google.com/drive/1ZTQBfOQ9bV_HB_wYGVqwjUdXqYxpgOti?usp=drive_open
+MLP: https://colab.research.google.com/drive/16CDfrx-M5iDYB359iB69zIsScGjpm4aD#scrollTo=Zi3LUf9BxUhx
+dataset augmentée
+DT:https://colab.research.google.com/drive/1K09sWMDHGI64Ot7M7vg2gQ76MC7zL3DN?usp=drive_open
+MLP:https://colab.research.google.com/drive/1m0ZcuAkGMXJRP7J--d-V06MD6nIONVaH#scrollTo=31UtNsvAeZIP
+RF:
+dataset augmentée et normalise
+DT:https://colab.research.google.com/drive/1vF3zqO2JZNKvso2iYC8EEujqYCB2mWcP?usp=drive_open
+MLP:https://colab.research.google.com/drive/1ySeGyvfScvmj-U8xYvT9TVSTxRbxLGVs#scrollTo=6EZGr68WtpuD
+RF:
+PUREMENT QUANTIQUE
+MLP:https://colab.research.google.com/drive/1b_ZYJTHclk_8-eiATBKu_AFnVGPYQ3vQ#scrollTo=B8PV8qnVUStT
+
