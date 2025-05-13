@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre douce */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Titre de la navbar */
@@ -32,10 +32,10 @@
 }
 
 .navbar-right a:hover {
-  color: #00bcd4; /* Changer la couleur au survol */
+  color: #00bcd4; 
 }
 
-/* Bouton se connecter dans la navbar */
+
 .navbar-right .login-button {
   color: white;
   padding: 12px 24px;
